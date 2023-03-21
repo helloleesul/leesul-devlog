@@ -20,7 +20,7 @@ const Feed: React.FC<Props> = ({ categories, tags, posts }) => {
   return (
     <div className="block md:grid grid-cols-12 gap-6">
       <div className="hidden lg:block col-span-2">
-        <Lists.CategoryList data={categories} />
+        {/* <Lists.CategoryList data={categories} /> */}
         <Lists.TagList data={tags} />
       </div>
       <div className="col-span-12 lg:col-span-7">
