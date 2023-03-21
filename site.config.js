@@ -22,7 +22,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "LEESUL",
+    title: "LEESUL-DEVLOG",
     description: "welcome to morethan-log!",
     theme: "auto", // ['light', 'dark', 'auto']
   },

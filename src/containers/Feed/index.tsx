@@ -20,7 +20,7 @@ const Feed: React.FC<Props> = ({ categories, tags, posts }) => {
   return (
     <div className="block md:grid grid-cols-12 gap-6">
       <div className="hidden lg:block col-span-2">
-        {/* <Lists.CategoryList data={categories} /> */}
+        <Lists.CategoryList data={categories} />
         <Lists.TagList data={tags} />
       </div>
       <div className="col-span-12 lg:col-span-7">
@@ -29,7 +29,7 @@ const Feed: React.FC<Props> = ({ categories, tags, posts }) => {
         <Lists.TagList className="block lg:hidden" data={tags} />
         <FeedHeader categories={categories} />
         <Lists.PostList q={q} posts={posts} />
-        <Footer className="block lg:hidden flex justify-center pb-8" />
+        <Footer className="block lg:hidden flex justify-center pb-4" />
       </div>
       <div className="hidden lg:block lg:col-span-3">
         <Cards.ProfileCard />

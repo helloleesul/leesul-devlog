@@ -19,7 +19,7 @@ const OrderButtons: React.FC<Props> = () => {
     })
   }
   return (
-    <div className={`flex text-sm gap-2  `}>
+    <div className={`flex text-sm gap-2`}>
       <a
         className={`cursor-pointer ${
           currentOrder === "desc"

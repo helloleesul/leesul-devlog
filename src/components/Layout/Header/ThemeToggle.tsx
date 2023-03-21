@@ -25,8 +25,15 @@ const ThemeToggle: React.FC<Props> = () => {
 
   if (CONFIG.blog.theme !== "auto") return null
   return (
-    <div className={`cursor-pointer dark:text-gray-50`} onClick={handleClick}>
-      {theme === "light" ? "☀️" : "🌙"}
+    <div
+      className={
+        theme === "light"
+          ? "cursor-pointer dark:text-gray-50 toggleSwitch"
+          : "cursor-pointer dark:text-gray-50 toggleSwitch active"
+      }
+      onClick={handleClick}
+    >
+      <span>{theme === "light" ? "Light" : "Dark"}</span>
     </div>
   )
 }
