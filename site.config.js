@@ -50,7 +50,7 @@ const CONFIG = {
     config: {
       siteVerification:
         process.env.GOOGLE_SITE_VERIFICATION ||
-        "google-site-verification=zztyyWxr_lgBws5gjpQd76_CDbuf74b0x59nU89k3MY",
+        "pFCu7_cAN8TpwiqTC8sLmci0fqlEceBxVDuhXKqGSss",
     },
   },
   utterances: {
