@@ -10,20 +10,17 @@ const CONFIG = {
     github: "helloleesul",
     instagram: "",
   },
-  projects: [
-    {
-      name: `morethan-logss`,
-      href: "https://github.com/morethanmin",
-    },
-    {
-      name: `morethan-logff`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
-  ],
+  // projects: [
+  //   {
+  //     name: `morethan-logss`,
+  //     href: "https://github.com/morethanmin",
+  //   },
+  // ],
+
   // blog setting (required)
   blog: {
-    title: "LEESUL-DEVLOG",
-    description: "welcome to morethan-log!",
+    title: "LEESUL-DEVLOG 성장일지",
+    description: "welcome to LEESUL-DEVLOG!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 

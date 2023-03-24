@@ -20,7 +20,7 @@ const Layout: React.FC<Props> = ({
         <Header fullWidth={fullWidth} />
         {/* {metaConfig.type !== "Paper" && <Header fullWidth={fullWidth} />} */}
         <main
-          className={`m-auto flex-grow w-full transition-all max-w-6xl px-4 mb-6 md:mb-8 ${
+          className={`m-auto flex-grow w-full transition-all max-w-6xl px-4 mb-6 md:mb-24 ${
             fullWidth && "px-4 md:px-24"
           } ${metaConfig.type === "Paper" && ""} `}
         >

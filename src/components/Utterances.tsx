@@ -31,7 +31,7 @@ const Utterances: React.FC<Props> = ({ issueTerm }) => {
   })
   return (
     <>
-      <div id="comments" className="md:-ml-16">
+      <div id="comments" className="">
         <div className="utterances-frame"></div>
       </div>
     </>

@@ -5,12 +5,16 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
+  AiOutlineComment,
 } from "react-icons/ai"
 
 const ContactCard: React.FC = () => {
   return (
     <>
-      <div className="p-1 mb-3 dark:text-white">💬 Contact</div>
+      <div className="p-1 mb-3 dark:text-white flex items-center gap-2">
+        <AiOutlineComment className="text-xl" />
+        <div>Contact</div>
+      </div>
       <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.github && (
           <a

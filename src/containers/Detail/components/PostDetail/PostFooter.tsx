@@ -9,7 +9,7 @@ const Footer: React.FC<Props> = () => {
     <div className="max-w-7xl m-auto w-full fixed quickMenu py-6 flex flex-row justify-between items-center">
       <button onClick={() => router.push("/")} className="back">
         <div className="text-5xl cursor-pointer text-gray-300 dark:text-gray-500 hidden lg:block">
-          BACK
+          B
         </div>
       </button>
       <button
@@ -17,7 +17,7 @@ const Footer: React.FC<Props> = () => {
         className="top "
       >
         <div className="text-5xl cursor-pointer text-gray-300 dark:text-gray-500 hidden lg:block">
-          TOP
+          T
         </div>
       </button>
     </div>

@@ -2,8 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./Poppins/Poppins-Black.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./Poppins/Poppins-Bold.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./Poppins/Poppins-SemiBold.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Poppins/Poppins-Medium.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Poppins/Poppins-Regular.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./Poppins/Poppins-Light.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./Poppins/Poppins-Thin.ttf") format("truetype");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
 html {
-  font-family: Pretendard, Roboto, sans-serif;
+  font-family: "Poppins", Pretendard, Roboto, sans-serif;
   --scrollbarBG: #ffffff00;
   --thumbBG: #b8b8b8;
 }
@@ -166,6 +230,10 @@ nav {
 
 .mobile-x-scroll {
   overflow-x: scroll;
+}
+
+.profile img {
+  transform: scale(0.8);
 }
 
 .dark .dark\:bg-zinc-700 .profile img {
