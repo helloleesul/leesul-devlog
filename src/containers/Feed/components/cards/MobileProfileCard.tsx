@@ -1,7 +1,7 @@
 import CONFIG from "site.config"
 import Image from "next/image"
 import React from "react"
-import { AiOutlineSearch } from "react-icons/ai"
+import { AiOutlineLaptop } from "react-icons/ai"
 
 type Props = {
   className?: string
@@ -11,8 +11,8 @@ const MobileProfileCard: React.FC<Props> = () => {
   return (
     <div className="block lg:hidden">
       <div className="p-1 mb-3 dark:text-white flex items-center gap-2">
-        <AiOutlineSearch className="text-xl" />
-        <div>Search</div>
+        <AiOutlineLaptop className="text-xl" />
+        <div>Profile</div>
       </div>
       <div className="p-2 rounded-2xl bg-white dark:bg-zinc-700 mb-4">
         <div className="flex items-center gap-2 profile">

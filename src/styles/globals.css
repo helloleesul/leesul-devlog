@@ -157,11 +157,8 @@ body::-webkit-scrollbar-thumb {
 .quickMenu button {
   transition: all 0.2s ease;
 }
-.quickMenu button.back:hover {
-  margin-left: -20px;
-}
-.quickMenu button.top:hover {
-  margin-top: -20px;
+.quickMenu button:hover {
+  transform: scale(1.1);
 }
 
 .utterances-frame {
@@ -233,7 +230,7 @@ nav {
 }
 
 .profile img {
-  transform: scale(0.8);
+  transform: scale(0.7);
 }
 
 .dark .dark\:bg-zinc-700 .profile img {

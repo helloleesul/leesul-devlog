@@ -4,7 +4,7 @@ const CONFIG = {
     name: "leesul",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "I develop everything using node.",
+    bio: "스스로 올바른 선택을 할 수 있는 사람이 될 것",
     email: "suerish.e@gmail.com",
     linkedin: "",
     github: "helloleesul",
@@ -19,8 +19,8 @@ const CONFIG = {
 
   // blog setting (required)
   blog: {
-    title: "LEESUL-DEVLOG 성장일지",
-    description: "welcome to LEESUL-DEVLOG!",
+    title: "LEESUL-DEVLOG",
+    description: "개발 공부를 하며 배우고 느낀 것들을 기록합니다.",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
