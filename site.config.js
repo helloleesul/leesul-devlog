@@ -28,7 +28,7 @@ const CONFIG = {
   link: "https://leesul-devlog.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://og-image-korean-leesul.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ["Blog", "Website", "Notion"],
   },
