@@ -25,7 +25,7 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://leesul-devlog.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -40,15 +40,17 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || "",
+      measurementId: process.env.GOOGLE_MEASUREMENT_ID || "G-PBBMF2E881",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
-      siteVerification: process.env.GOOGLE_SITE_VERIFICATION || "",
+      siteVerification:
+        process.env.GOOGLE_SITE_VERIFICATION ||
+        "google-site-verification=zztyyWxr_lgBws5gjpQd76_CDbuf74b0x59nU89k3MY",
     },
   },
   utterances: {
